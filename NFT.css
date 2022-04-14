@@ -1,0 +1,108 @@
+main{
+    background-color:hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.card{
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    font-family: 'outfit', sans-serif;
+    text-align: center;
+    width: 300px;
+    height: 520px;
+    border-radius: 1rem;
+    position: relative;
+}
+.card-img{
+    position: relative;
+}
+.ntf-img{
+    align-items: center;
+    height: 16rem;
+    width: 16rem;
+    border-radius: 0.6rem;
+    margin:1.3rem 1.3rem 0.6rem 1.3rem;
+}
+.card-hover-container{
+    height: 16rem;
+    width: 16rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    border-radius: 0.6rem;
+    margin-top: 0.3rem;
+}
+.card-hover{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+}
+h4{
+   text-align: left;
+   color: hsl(0, 0%, 100%);
+   font-size: 18px;
+   margin-left: 1.3rem;
+   font-weight: 400;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+}
+.card-link{
+    color: #fff;
+    text-decoration:none;
+}
+p{
+    font-size: 16px;
+    text-align: left;
+    margin-left: 1.3rem;
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 1rem;
+}
+.info-blk{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-right: 1.3rem;
+}
+.info-eth{
+    left:100%;
+    /* margin-left: 1.3rem; */
+}
+.info-clock{
+align-items: center;
+}
+.img-fluid{
+    margin-bottom: 0.3rem;
+    margin-right: 0.2rem
+}
+.info-auth{
+    border-top: 1px solid hsl(215, 32%, 27%);
+    margin-right: 1.3rem;
+    font-weight: 300;
+    font-size: 16px;
+    padding-top: 1rem;
+}
+.auth-link{
+    color: #fff;
+    text-decoration: none;
+}
+.img-avatar{
+    width: 2rem;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin-right: 0.8rem;
+}
+a:hover{
+    color: hsl(178, 100%, 50%);
+}
+.card-hover-container:hover {
+opacity: 1;
+background-color: hsla(178, 100%, 50%, 0.5);
+cursor: pointer;
+visibility:visible;
+}
