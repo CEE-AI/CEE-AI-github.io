@@ -43,12 +43,12 @@ main{
     transform: translate(-50%, -50%);
     opacity: 1;
 }
-h4{
+h1{
    text-align: left;
    color: hsl(0, 0%, 100%);
-   font-size: 18px;
+   font-size: 20px;
    margin-left: 1.3rem;
-   font-weight: 400;
+   font-weight: 600;
    margin-top: 1rem;
    margin-bottom: 1rem;
 }
